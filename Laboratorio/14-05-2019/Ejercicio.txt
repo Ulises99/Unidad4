@@ -1,0 +1,15 @@
+realizar un usuario que permita tener los roles siguientes:
+1- rol de lectura
+2- rol de lectura-escritura
+3- sea propiertario de la base de datos
+4- rol administrador de base de datos
+
+el usuario de consultas solamente podra obtener la informacion del detalle del producto
+el usuario de lectura-escritura podra generar una factura en la base de datos
+el usuario propietario de la base de datos se utilizara para la conexion a la base, podra ejecutar procedimientos almacenados, funciones y triggers
+DBA solo crearlo.
+
+Tomar en consideracion lo siguiente:
+El cliente Marcos Lopez comprara un articulo de linea blanca (refrigeradora, lavadora, etc)
+El cliente Carlos Lopez es un nuevo cliente que comprara articulos de cocina
+El cliente Maria Lopez ya existe en la base de datos y tiene asignado su codigo ML00001 ha comprado un articulo que es una licuadora con codigo LC251 donde 25 corresponde a la bodega y el 1 corresponde al numero de inventario.
